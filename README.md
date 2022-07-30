@@ -1,11 +1,24 @@
-## Start build tailwind
+# Squarevest
 
-`````
-yarn watch-tailwind
-`````
+## Build project
 
-or
+```
+npm run build
+```
 
-`````
-npm run watch-tailwind
-`````
+## Serve project
+
+```
+npm run serve
+```
+
+## How to add pages
+
+To add a new html page, you also have to add it to the plugins in the webpack.config.js
+
+```
+new HtmlWebpackPlugin({
+	filename: 'title.html',
+	template: 'title.html'
+})
+```
