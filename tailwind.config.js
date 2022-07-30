@@ -15,6 +15,7 @@ module.exports = {
       },
       padding: {
         "sq-pb-42-250": "calc(42 / 250 * 100%)", // height / width * 100%
+        "sq-pb-596-1064": "calc(596 / 1064 * 100%)", // height / width * 100%
       },
     },
   },
