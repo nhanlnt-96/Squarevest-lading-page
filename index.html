@@ -10,17 +10,17 @@
 <body class="relative">
 <!--header-->
 <nav class="bg-sq-hauptfarbe py-[26px] px-3 md:px-4 xl:px-0">
-  <div class="container flex flex-wrap justify-between items-center mx-auto">
-    <div class="max-w-[125px] md:max-w-[250px] w-full">
+  <div class="container flex justify-between items-center mx-auto">
+    <div class="max-w-[100px] sm:max-w-[125px] md:max-w-[250px] w-full">
       <div class="pb-sq-pb-42-250 relative flex justify-center items-center">
         <a href="#" class="absolute left-0 top-0 w-full h-full">
           <img src="./src/assets/logo.png" class="w-full h-full object-contain" alt="Squarevest Logo">
         </a>
       </div>
     </div>
-    <div class="">
+    <div>
       <button
-        class="bg-sq-kontrastfarbe text-white shadow-sq-btn-shadow p-1.5 md:py-[9px] md:px-[17px] font-medium md:font-semibold text-base md:text-lg hover:bg-[rgba(0,0,0,.5)] transition-all">
+        class="bg-sq-kontrastfarbe text-white shadow-sq-btn-shadow p-1.5 md:py-[9px] md:px-[17px] font-medium md:font-semibold text-sm sm:text-base md:text-lg hover:bg-[rgba(0,0,0,.5)] transition-all">
         Nutzen Sie Ihre Chance
       </button>
     </div>
@@ -172,15 +172,11 @@
 </footer>
 
 <!--move to top button-->
-<div class="fixed right-3 md:bottom-[172px] md:right-[62px]">
+<div class="fixed right-3 bottom-3 md:bottom-[172px] md:right-[62px]">
   <button id="moveToTopBtn"
-          class="text-white w-[34px] h-[34px] md:w-[68px] md:h-[68px] bg-sq-hauptfarbe flex justify-center items-center">
-    <svg width="34" height="41" viewBox="0 0 34 41" fill="none" xmlns="http://www.w3.org/2000/svg">
-      <path fill-rule="evenodd"
-            clip-rule="evenodd"
-            d="M1.48206 19.523C0.853249 18.8979 0.5 18.0501 0.5 17.1663C0.5 16.2824 0.853249 15.4346 1.48206 14.8095L14.8988 1.47597C15.5278 0.851058 16.3808 0.5 17.2703 0.5C18.1597 0.5 19.0127 0.851058 19.6417 1.47597L33.0584 14.8095C33.6694 15.4382 34.0075 16.2802 33.9999 17.1543C33.9922 18.0283 33.6395 18.8643 33.0176 19.4824C32.3957 20.1004 31.5544 20.451 30.6749 20.4586C29.7955 20.4662 28.9482 20.1302 28.3156 19.523L20.6244 11.8795V37.1666C20.6244 38.0507 20.2711 38.8985 19.642 39.5237C19.013 40.1488 18.1598 40.5 17.2703 40.5C16.3807 40.5 15.5275 40.1488 14.8985 39.5237C14.2694 38.8985 13.9161 38.0507 13.9161 37.1666V11.8795L6.22489 19.523C5.59589 20.1479 4.74289 20.4989 3.85348 20.4989C2.96406 20.4989 2.11107 20.1479 1.48206 19.523Z"
-            fill="currentColor" />
-    </svg>
+          class="text-white bg-sq-hauptfarbe w-[34px] h-[34px] md:w-[68px] md:h-[68px] p-2 md:p-0 flex justify-center items-center">
+    <img src="./src/assets/arrow-up-icon.png" alt="arrow-up"
+         class="w-full h-full object-contain md:w-[unset] md:h-[unset] md:object-[unset]">
   </button>
 </div>
 <script src="./src/js/jquery-3.6.0.min.js"></script>
