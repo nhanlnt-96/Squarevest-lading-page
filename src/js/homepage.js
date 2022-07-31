@@ -27,4 +27,9 @@ $(document).ready(() => {
   onWindowResizeHandler(window.innerWidth);
 
   $(window).resize(() => onWindowResizeHandler(window.innerWidth));
+
+  // move to top button
+  $("#moveToTopBtn").click(() => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  });
 });
